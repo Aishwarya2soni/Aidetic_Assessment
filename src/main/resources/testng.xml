@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ViralnationSuite" thread-count="5">
+	<test name="Test1">
+		<classes>
+			<class name="testCases.LoginTest_facebook" />
+			<class name="testCases.LoginTest_google" />
+			<class name="testCases.LoginTest_microsoft" />
+			<class name="testCases.LoginTest_Other" />
+			<class name="testCases.LoginTest_apple" />
+		</classes>
+	</test>
+</suite> 

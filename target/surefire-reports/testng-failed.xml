@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ViralnationSuite]" verbose="0">
+  <test name="Test1(failed)">
+    <classes>
+      <class name="testCases.LoginTest_google">
+        <methods>
+          <include name="loginGoogle"/>
+        </methods>
+      </class> <!-- testCases.LoginTest_google -->
+      <class name="testCases.LoginTest_Other">
+        <methods>
+          <include name="loginOther"/>
+        </methods>
+      </class> <!-- testCases.LoginTest_Other -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [ViralnationSuite] -->

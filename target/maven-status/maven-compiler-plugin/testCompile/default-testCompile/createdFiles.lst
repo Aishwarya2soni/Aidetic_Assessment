@@ -1,0 +1,5 @@
+testCases\LoginTest_google.class
+testCases\LoginTest_apple.class
+testCases\LoginTest_microsoft.class
+testCases\LoginTest_facebook.class
+testCases\LoginTest_Other.class
